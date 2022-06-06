@@ -11,7 +11,7 @@ while(True):
     # Capture frame by frame
     ret, img = webcam.read()
 
-    img = cv2.flip(img, -1)
+  #  img = cv2.flip(img, -1)
     gray = cv2.cvtColor(img, cv2.COLOR_BGR2GRAY)
 
     # Detect the face
